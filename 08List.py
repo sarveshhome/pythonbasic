@@ -142,9 +142,17 @@
 
 #  Parsing lines
 
-fhand = open('mbox-short.txt')
-for line in fhand:
-    line = line.rstrip()    
-    if not line.startswith('From '): continue
-    words = line.split()
-    print(words)
+# fhand = open('mbox-short.txt')
+# for line in fhand:
+#     line = line.rstrip()    
+#     if not line.startswith('From '): continue
+#     words = line.split()
+#     print(words)
+
+
+t = ['a', 'b', 'c']
+x = t.pop(1)
+
+print (x)
+print (t)
+print(t[0], t[1])
