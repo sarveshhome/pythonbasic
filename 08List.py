@@ -37,7 +37,7 @@
 # print(c)
 
 
-# print([0] * 4)
+print([0] * 4)
 
 # print([1, 2, 3] * 3) #three time  [1, 2, 3, 1, 2, 3, 1, 2, 3]
 
@@ -138,6 +138,7 @@
 # delimiter = ' '
 # result = delimiter.join(t)
 # print(result)
+
 
 
 #  Parsing lines
