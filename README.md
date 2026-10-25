@@ -29,3 +29,7 @@ d = Decimal("3.14")
 print(type(f), f)  # <class 'float'> 3.14
 print(type(d), d)  # <class 'decimal.Decimal'> 3.14
 ```
+
+
+
+`python3 -m pip install scikit-learn`
