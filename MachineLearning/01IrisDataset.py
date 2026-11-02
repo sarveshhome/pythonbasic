@@ -22,4 +22,6 @@ iris = load_iris()
 #print(iris.data[[12, 26, 89, 114]])
 
 
-print(np.bincount(iris.target))
+#print(np.bincount(iris.target))
+#print(iris.target)
+print(iris.data.shape)
